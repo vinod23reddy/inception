@@ -97,7 +97,6 @@
     <!-- Knowledge base -->
     <module>inception-kb</module>
     <module>inception-ui-kb</module>
-    <module>inception-concept-linking</module>
     <!-- Editor extensions -->
     <module>inception-html-editor</module>
     <module>inception-pdf-editor</module>
@@ -370,7 +369,7 @@
       <dependency>
         <groupId>de.tudarmstadt.ukp.inception.app</groupId>
         <artifactId>inception-coclass-linking</artifactId>
-        <version>0.11.0-SNAPSHOT</version>
+        <version>0.12.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>de.tudarmstadt.ukp.inception.app</groupId>

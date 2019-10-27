@@ -77,6 +77,11 @@
       </exclusions>
     </dependency>
     
+    <dependency>
+        <groupId>de.tudarmstadt.ukp.inception.app</groupId>
+        <artifactId>inception-coclass-linking</artifactId>
+    </dependency>
+    
     <!-- INCEPTION - ANNOTATION RECOMMENDATION FUNCTIONALITY -->
     <dependency>
       <groupId>de.tudarmstadt.ukp.inception.app</groupId>
@@ -496,11 +501,6 @@
     <dependency>
       <groupId>org.apache.wicket</groupId>
       <artifactId>wicket-native-websocket-javax</artifactId>
-    </dependency>
-    <dependency>
-    	<groupId>de.tudarmstadt.ukp.inception.app</groupId>
-    	<artifactId>inception-coclass-linking</artifactId>
-    	<version>0.12.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
